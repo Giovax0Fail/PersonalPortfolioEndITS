@@ -260,3 +260,23 @@ footer {
     font-size: 0.9rem;
   }
 }
+
+/* video container */
+.carousel-wrapper {
+  width: 90%; /* responsive */
+  max-width: 900px; /* NON tutta la pagina */
+  max-height: 675px; /* NON tutta la pagina */
+  margin: 0 auto; /* centrato */
+}
+
+/* .carousel-track {
+  width: 100%;
+  height: 100%;
+} */
+
+.carousel-video {
+  max-width: 900px; /* NON tutta la pagina */
+  max-height: 675px; /* NON tutta la pagina */
+  object-fit: contain; /* mostra tutto il video */
+  border-radius: 12px; /* opzionale */
+}
